@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;   
+    padding: 0;
+    margin: 0; 
+}
+
+.login{
+    display: flex;
+
+}
+
+h1{
+    padding: 20px 0 5px 0;
+    font-size: 35px;
+}
+.welcome{
+    color:darkgrey;
+    padding: 10px 0 20px 0;
+    font-size: 15px;
+}
+.form{
+    padding-top: 85px;
+    width: 50%;
+    font-weight: 500;
+    color: rgb(10, 10, 31);
+    margin-left: 15%;
+    height: 86vh;
+}
+ input{
+    outline: none;
+ }
+ .email, .password {
+    /* padding:20px 0px 0px 0px; */
+    font-weight: 500;
+    font-size: 15px;
+    /* background-color: red; */
+ }
+.box{
+    margin: 8px 0px 20px 0px;
+    padding: 8px 5px;
+    color:black;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    width: 250px;
+
+}
+
+.contraseña{
+    margin: 8px 0px 5px 0px;
+    padding: 8px 5px;
+    color:white;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    width: 250px;   
+}
+
+.password{
+    margin: 20px 0;
+}
+
+
+.checkbox{
+    cursor: pointer;
+    /* background-color: #fff; */
+    width: 12px;
+    height: 12px;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.checkbox:checked{
+    background-color:rgb(10, 10, 31); ;
+}
+
+.check{
+    /* padding: 10px 0; */
+    /* background-color: red; */
+    font-size: 12px;
+}
+
+span{
+    font-size: 12px;
+    padding: 0 30px;
+}
+
+span a {
+    text-decoration: none;
+    color:rgb(10, 10, 31);
+}
+
+.sign{
+    width: 260px;
+    background-color: rgb(10, 10, 31);
+    color:white;
+    border-radius: 5px;
+    border:none;
+    margin: 15px 0 8px 0px;
+    padding: 8px 5px;
+}
+
+.google{
+    width: 260px;
+    background-color: white;
+    color:rgb(10, 10, 31);
+    border-radius: 5px;
+    border:1px solid darkgrey;
+    margin: 8px 0 15px 0px;
+    padding: 8px 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+ .google p{
+    align-items: center;
+ }
+
+.signup{
+    font-size: 12px;
+    color: darkgrey;
+    margin-left: 25px;
+    padding-top: 15px;
+
+}
+
+.signup a{
+    text-decoration: none;
+    color:rgb(10, 10, 31);
+    font-weight: 500;
+}
+
+.derecha{
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    width: 50%;
+    /* margin-right: 15%; */
+    background-size: 150%;
+    background-position: 50% 20%;
+    padding: 350px 10% 0 50px;
+}
+
+.blur{
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 120%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.blur h2{
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    
+}
+
+.autor{
+    display: flex;
+    color: white;
+    /* justify-content:space-around; */
+    
+    
+}
+
+.detalles{
+    flex-basis: 30%;
+    margin: 2% 5%;
+    /* padding 0px 50px */
+    /* border: 1px solid red; */
+}
+
+.detalles h3{
+    padding: 15px 0px;
+}
+
+.detalles p{
+    padding:3px 0;
+}
+
+.detail{
+    font-weight: 500;
+}
+.agencia{
+    font-weight: 100;
+} 
+
+/* .agencia{
+    padding-right: 70px;
+    margin-left: 20px;
+} */
+.clasificacion{
+    padding-left: 40%;
+    /* padding-bottom: 50%; */
+    /* border: 1px solid red; */
+}
+.clasificacion a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    /* padding:50% 0 ; */
+}
+
+.arrow{
+    letter-spacing: 20px;
+}
+
+.arrow a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    margin-top:50%;
+}
+
